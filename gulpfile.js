@@ -37,11 +37,11 @@ var uglify = require('gulp-uglify');
 
 // });
 
-gulp.task('webserver', function() {
-  connect.server({
-  	livereload: true
-  });
-});
+// gulp.task('webserver', function() {
+//   connect.server({
+//   	livereload: true
+//   });
+// });
 
 // gulp.task('html', function () {
 //   return gulp.src(paths.srcHTML).pipe(gulp.dest(paths.tmp));
